@@ -1,8 +1,9 @@
 {
   "name": "retrieve-real-html",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Retrieves the HTML a browser would see after a full page load and scroll to bottom.",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc",
     "prepublish": "tsc",
