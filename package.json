@@ -1,0 +1,32 @@
+{
+  "name": "retrieve-real-html",
+  "version": "1.0.0",
+  "description": "Retrieves the HTML a browser would see after a full page load and scroll to bottom.",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "prepublish": "tsc",
+    "test": "tsc && node dist/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/princefishthrower/retrieve-real-html.git"
+  },
+  "keywords": [
+    "html",
+    "puppeteer",
+    "markup",
+    "full",
+    "page"
+  ],
+  "author": "Christopher Frewin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/princefishthrower/retrieve-real-html/issues"
+  },
+  "homepage": "https://github.com/princefishthrower/retrieve-real-html#readme",
+  "dependencies": {
+    "@types/puppeteer": "^3.0.0",
+    "puppeteer": "^4.0.1"
+  }
+}
