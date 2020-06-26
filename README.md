@@ -12,7 +12,7 @@ import path from 'path';
 async function test() {
   const retrieveRealHTML = await retrieveRealHTML(
     "https://edition.cnn.com",
-    path.join(__dirname, "..", "output-images")
+    path.join(__dirname, "..", "output-html")
   );
   console.log(
     "Done with HTML retrieval. Retrieved HTML: " +
